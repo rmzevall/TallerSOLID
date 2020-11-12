@@ -3,10 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Leche;
+package Adicionales;
 
-import Postres.*;
-
-public abstract class LecheEntera {
-    public abstract void usarPostre(Postre postre);
+/**
+ *
+ * @author Jorge
+ */
+public class Frutilla extends Aderezo{
+    @Override
+    public void setNombre(String nombre) {
+        this.nombre=nombre;
+    }
 }

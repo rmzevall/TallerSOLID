@@ -17,10 +17,20 @@ public class Postre {
     protected double precioParcial;
     protected ArrayList<Aderezo> aderezos;
     
-    public Postre(String sabor){
+    public Postre(String sabor, double precioParcial){
         aderezos= new ArrayList<>();
         this.sabor=sabor;   
+        this.precioParcial=precioParcial;
     }
+
+    public double getPrecioParcial() {
+        return precioParcial;
+    }
+
+    public ArrayList<Aderezo> getAderezos() {
+        return aderezos;
+    }
+    
     public void anadirAderezoPostre(Aderezo aderezo){
         aderezos.add(aderezo);
     }

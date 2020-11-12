@@ -3,19 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Leche;
-
-import Postres.Postre;
+package Adicionales;
 
 /**
  *
- * @author Pedro Mendoza
+ * @author Jorge
  */
-public class LecheDescremada extends LecheEntera {
+public class Malvavisco extends Aderezo{
 
     @Override
-    public void usarPostre(Postre postre) {
-        System.out.println("Usando leche descremada");
+    public void setNombre(String nombre) {
+        this.nombre=nombre;
     }
+    
     
 }

@@ -15,15 +15,9 @@ import Adicionales.Aderezo;
 public class Pastel extends Postre{
    
      public Pastel(String sabor){
-        super(sabor);
-        aderezos= new ArrayList<>();
-        this.sabor=sabor;
-        precioParcial=15.55;
+        super(sabor,15.55);
     }
     
-    public ArrayList<Aderezo> getAderezos() {
-        return aderezos;
-    }
 
     @Override
     public String toString() {
